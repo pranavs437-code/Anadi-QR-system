@@ -156,7 +156,7 @@
         .bill-card.dispatched { border-color: var(--success-color); }
 
         .bill-card-main {
-            display: flex
+                display: flex
 ;
     align-items: center;
     padding: -2rem 1.5rem;
@@ -659,15 +659,15 @@
                 <div class="history-controls form-section">
                      <input type="text" id="historySearchInput" placeholder="Search by Name, Phone, or Bill ID..." oninput="renderHistory()">
                      <div class="controls-group">
-                         <button class="action-btn" title="Update Status by QR/Manual" onclick="openDispatchModal()">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41M12 1a2 2 0 0 0-2 2v2H1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h11.5a.5.5 0 0 0 0-1H1.5a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5H10V3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-1a.5.5 0 0 0 0 1h1a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zM0 11.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1h-15a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4.5a.5.5 0 0 0 0-1z"/></svg>
-                         </button>
-                         <button class="action-btn" title="Customer Summary" onclick="openSummaryModal()">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M1.5 2.5a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1zM1 4.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5m1.5 2.5a.5.5 0 0 0 0 1h10a.5.5 0 0 0 0-1zm-1.5 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zM11 9.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m-1.5 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/></svg>
-                         </button>
-                         <button class="action-btn" title="Export History to PDF" onclick="exportPdfReport()">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/></svg>
-                         </button>
+                        <button class="action-btn" title="Update Status by QR/Manual" onclick="openDispatchModal()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41M12 1a2 2 0 0 0-2 2v2H1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h11.5a.5.5 0 0 0 0-1H1.5a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5H10V3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-1a.5.5 0 0 0 0 1h1a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zM0 11.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1h-15a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4.5a.5.5 0 0 0 0-1z"/></svg>
+                        </button>
+                        <button class="action-btn" title="Customer Summary" onclick="openSummaryModal()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M1.5 2.5a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1zM1 4.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5m1.5 2.5a.5.5 0 0 0 0 1h10a.5.5 0 0 0 0-1zm-1.5 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zM11 9.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m-1.5 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/></svg>
+                        </button>
+                        <button class="action-btn" title="Export History to PDF" onclick="exportPdfReport()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/></svg>
+                        </button>
                      </div>
                 </div>
                 <div id="bill-history-container"></div>
@@ -682,7 +682,7 @@
     <div id="toastContainer" class="no-print"></div>
 
    <script>
-    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwbRD_v-hkdNymZ-yH3wZ7DOytXerSsP8Vlo7rH0yRyFFtFtAJK0qsbcX28_Nq874WaXA/exec';
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxDDQIYRxckNTApoAV8qoEj97xJA_yUaJd30qlp_TY0kPCMFGimwprOQ-jBfgqwxJHa/exec';
     let cart = [], bills = [], html5QrCode, currentBill = null;
     let customerSummaryData = {};
     const whatsappIcon = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.75,13.96C17.08,14.39 17.21,15.04 17.04,15.54C16.87,16.03 16.46,16.35 15.98,16.5C15.5,16.65 14.88,16.63 14.24,16.39C13.6,16.15 12.38,15.61 11.23,14.45C9.88,13.1 9.05,11.56 8.84,10.93C8.64,10.3 8.8,9.7 9.09,9.29C9.33,8.95 9.68,8.76 10,8.76C10.33,8.76 10.5,8.76 10.63,8.76C10.85,8.76 11.03,8.81 11.21,9.23L11.75,10.5C11.9,10.88 11.91,11.21 11.8,11.48C11.68,11.75 11.53,11.9 11.28,12.15C11.04,12.4 10.9,12.54 10.76,12.68C10.63,12.82 10.48,13.01 10.75,13.28C11.02,13.55 11.63,14.15 12.28,14.81C13.11,15.63 13.75,15.94 14.05,16.09C14.35,16.24 14.58,16.21 14.78,16.03L15.3,15.5C15.68,15.13 16.11,15 16.5,15.03C16.88,15.06 17.63,15.33 17.63,15.33L18.03,13.93C17.76,13.81 17.26,13.55 16.75,13.96M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22C13.66,22 15.25,21.54 16.65,20.73L21.35,22.14L20.06,17.5C21.06,16 21.75,14.11 21.94,12.1C22,11.95 22,11.97 22,12A10,10 0 0,0 12,2Z"/></svg>`;
@@ -708,7 +708,6 @@
         }
     }
     
-    // FIX: Modified loadBills to handle the new JSON structure
     async function loadBills() {
         try {
             const response = await fetch(SCRIPT_URL);
@@ -817,12 +816,13 @@
             });
     }
     
+    // REPLACE this function
 function openSummaryModal() {
     generateCustomerSummary();
     const container = document.getElementById('summary-list-container');
     const summaryValues = Object.values(customerSummaryData).sort((a, b) => b.totalAmount - a.totalAmount); // Sort by total amount
 
-    const userIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/></svg>`;
+    const userIcon = `<svg xmlns="http://www.w.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/></svg>`;
     const expandIcon = `▼`; // Using a simple character for the icon
 
     if (summaryValues.length === 0) {
@@ -869,6 +869,7 @@ function openSummaryModal() {
     document.getElementById('summaryModal').style.display = 'block';
 }
 
+// ADD this new function
 function toggleSummaryDetails(headerElement) {
     const card = headerElement.closest('.summary-card');
     const detailsDiv = card.querySelector('.summary-details');
@@ -1015,17 +1016,17 @@ function toggleSummaryDetails(headerElement) {
         document.getElementById('print-qr-img').src = qrDataUrl;
     }
 
-// FIX: Modified renderHistory to handle the new JSON structure correctly
+    // REPLACE your existing renderHistory function with this one
 function renderHistory() {
     const searchTerm = document.getElementById('historySearchInput').value.toLowerCase();
     
-    // Check if the date is a string before converting
     const filteredBills = bills.filter(bill =>
-      (bill.customer && bill.customer.name && bill.customer.name.toLowerCase().includes(searchTerm)) ||
-      (bill.customer && bill.customer.phone && bill.customer.phone.toString().includes(searchTerm)) ||
-      (bill.id && bill.id.toString().includes(searchTerm))
+        bill.customer.name.toLowerCase().includes(searchTerm) ||
+        bill.customer.phone.toString().includes(searchTerm) ||
+        bill.id.toString().includes(searchTerm)
     );
 
+    // **IMPORTANT FIX**: This line sorts all bills by date, ensuring the newest is always first.
     filteredBills.sort((a, b) => new Date(b.date) - new Date(a.date));
 
     const container = document.getElementById('bill-history-container');
@@ -1034,6 +1035,7 @@ function renderHistory() {
     filteredBills.forEach(bill => {
         const card = document.createElement('div');
         card.className = `bill-card ${bill.status}`;
+        // The HTML structure remains the same as it supports the new CSS layout
         card.innerHTML = `<div class="bill-card-main" onclick="toggleDetails(this, ${bill.id})"><div class="bill-info bill-id"><h4>#${bill.id}</h4><span class="bill-status-badge ${bill.status}">${bill.status}</span></div><div class="bill-info bill-customer"><p><strong>${bill.customer.name}</strong></p><p>${bill.customer.phone}</p></div><div class="bill-info bill-total"><h4>₹${bill.total.toFixed(2)}</h4><span class="payment-status ${bill.paymentStatus}">${bill.paymentStatus.toUpperCase()}</span></div></div><div class="bill-card-actions"><div class="payment-toggle-container" title="Toggle Payment Status" onclick="event.stopPropagation()"><span>Payment:</span><input type="checkbox" id="pay-toggle-${bill.id}" class="payment-toggle" onchange="togglePaymentStatus(${bill.id}, this.checked)" ${bill.paymentStatus === 'paid' ? 'checked' : ''}><label for="pay-toggle-${bill.id}" class="payment-toggle-label"></label></div><button class="action-btn whatsapp-btn" title="Send on WhatsApp" onclick="sendWhatsApp(${bill.id})">${whatsappIcon}</button><button class="action-btn delete-btn" title="Delete Bill" onclick="deleteBill(${bill.id})">🗑️</button><button class="action-btn expand-btn" title="View Details" onclick="toggleDetails(this.parentElement.previousElementSibling, ${bill.id})">▼</button></div><div class="bill-details"><div class="bill-details-content"></div></div>`;
         container.appendChild(card);
     });
@@ -1075,7 +1077,7 @@ function renderHistory() {
         const formattedPhone = formatPhoneNumberForWhatsApp(bill.customer.phone);
         const itemsText = bill.items.map(i => `${i.name} (Qty: ${i.qty}) - ₹${i.total.toFixed(2)}`).join('%0A');
         const message = `*Bill Details*%0A%0ABill ID: *${bill.id}*%0ACustomer: *${bill.customer.name}*%0ADispatch Status: *${bill.status.toUpperCase()}*%0APayment Status: *${bill.paymentStatus.toUpperCase()}*%0A%0A--- Items ---%0A${itemsText}%0A%0ATotal Amount: *₹${bill.total.toFixed(2)}*`;
-        window.open(`https://wa.me/${formattedPhone}?text=${encodedMessage}`, "_blank");
+        window.open(`https://wa.me/${formattedPhone}?text=${message}`, "_blank");
     }
     
     function showToast(message, type = 'success') {
@@ -1104,16 +1106,22 @@ function renderHistory() {
             .catch((err) => { document.getElementById('qr-reader').innerHTML = '<p style="color: red; font-weight: bold;">Could not start camera.</p>'; });
     }
 
-// FIX: Updated exportPdfReport to match the new data structure
+    // REPLACE your existing exportPdfReport function with this one
 function exportPdfReport() {
     if (bills.length === 0) return showToast("No bills to export to PDF.", "error");
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF({ orientation: 'landscape', unit: 'pt', format: 'a4' });
     
-    const headers = [["Bill ID", "Customer Name", "Phone", "Address", "Date", "Status", "Payment", "Item", "Qty", "Price", "Total"]];
-    const reportData = [];
+    // The headers for your PDF table
+    const headers = [["Sr.", "Customer Name", "Phone", "Address", "Product", "Qty", "Price", "Total", "Date", "Dispatch Status", "Payment Status"]];
     
+    const reportData = []; 
+    let serialNumber = 1, grandTotal = 0;
+
+    // Loop through bills and format the data for the PDF
     bills.forEach(bill => {
+        // --- FIX 1: Format the date properly ---
+        // Create a clean, readable date string from the raw date data
         const formattedDate = new Date(bill.date).toLocaleString('en-IN', {
             day: '2-digit',
             month: 'short',
@@ -1122,21 +1130,22 @@ function exportPdfReport() {
             minute: '2-digit',
             hour12: true
         });
-        
-        bill.items.forEach((item, index) => {
+
+        bill.items.forEach(item => {
             reportData.push([
-                bill.id,
+                serialNumber++,
                 bill.customer.name,
                 bill.customer.phone,
                 bill.customer.house,
-                formattedDate,
-                bill.status,
-                bill.paymentStatus,
                 item.name,
                 item.qty,
-                `₹${item.price.toFixed(2)}`,
-                `₹${item.total.toFixed(2)}`
+                `Rs ${item.price.toFixed(2)}`,
+                `Rs ${item.total.toFixed(2)}`,
+                formattedDate, // Use the new formatted date here
+                bill.status,
+                bill.paymentStatus
             ]);
+            grandTotal += item.total;
         });
     });
 
@@ -1151,20 +1160,25 @@ function exportPdfReport() {
         theme: 'grid',
         styles: { fontSize: 7, cellPadding: 4 },
         headStyles: { fillColor: [44, 62, 80], textColor: 255, fontStyle: 'bold' },
+        // --- FIX 2: Adjust column widths to prevent wrapping ---
         columnStyles: {
-            0: { cellWidth: 40 }, // Bill ID
-            1: { cellWidth: 80 }, // Customer Name
-            2: { cellWidth: 70 }, // Phone
-            3: { cellWidth: 100 }, // Address
-            4: { cellWidth: 80 }, // Date
-            5: { cellWidth: 50 }, // Status
-            6: { cellWidth: 50 }, // Payment
-            7: { cellWidth: 80 }, // Item
-            8: { cellWidth: 30, halign: 'right' }, // Qty
-            9: { cellWidth: 40, halign: 'right' }, // Price
-            10: { cellWidth: 40, halign: 'right' } // Total
+            0: { cellWidth: 30 },   // Sr.
+            3: { cellWidth: 120 },  // Address
+            4: { cellWidth: 90 },   // Product
+            8: { cellWidth: 90 },   // Date
+            9: { cellWidth: 60 },   // Dispatch Status
+            10: { cellWidth: 60 },  // Payment Status
+            // Right-align number columns
+            5: { halign: 'right' },
+            6: { halign: 'right' },
+            7: { halign: 'right' }
         }
     });
+
+    let finalY = doc.autoTable.previous.finalY;
+    doc.setFontSize(12);
+    doc.setFont('helvetica', 'bold');
+    doc.text(`Grand Total: Rs ${grandTotal.toFixed(2)}`, 40, finalY + 30);
 
     try {
         doc.save(`Bill_Report_${new Date().toISOString().split('T')[0]}.pdf`);
